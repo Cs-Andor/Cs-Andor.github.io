@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <title>Évesmunka info</title>
+    <link rel="icon" type="image/x-icon" href="/Users/Andor/Downloads/website-or-app-home-or-house-flat-icon-vector-16841606.ico">
+    <link rel="stylesheet" href="/Users/Andor/Downloads/FerroRosso.ttf">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background-color: rgb(235, 236, 239);
+            color: #258;
+            text-align: center;
+            margin: 0px;
+        }
+
+
+        .navline{
+            background-color: rgba(41, 93, 144, 0.866);
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+        }
+        button{
+            color:rgb(3, 12, 20);
+            font-size: larger;
+            background-color: rgb(25, 90, 155);
+            border: 0px;
+            border-radius: 5px;
+            padding: 8px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        button:hover{
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+            
+
+        }
+
+        @keyframes shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        footer{
+            position: relative;
+            top: 300px;
+            padding: 20px;
+            font-size: small;
+            color: grey;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class="navline">
+    <a class="btns" href="file:///Volumes/111/Documents/UNITED VISUAL/Archive/evesmunka/getit.html"><button>Szerezd be!</button></a>
+    <a class="btns" href="file:///Volumes/111/Documents/UNITED VISUAL/Archive/evesmunka/info.html" ><button>Infó</button></a>
+    <a class="btns" href="file:///Volumes/111/Documents/UNITED VISUAL/Archive/evesmunka/sources.html"><button>Források</button></a>
+    <a class="btns" href="/Volumes/111/Documents/UNITED VISUAL/Archive/evesmunka/cseteandor.html"><button>Kapcsolat</button></a>
+</div>
+<br><br><br><br><br><br><br>
+<body>
+    
+    <p class="title"><h1><u> Információ </u></p><h1><br><p class="subtitle"><h3> Az évesmunkámhoz</p><h3>
+    <br><br>
+    <div style="margin:20px;color:black;text-align: left; font-size: medium;">
+        Az éves munkám egy python program, aminek a segítségével egy egyszerű weblapot/blogot lehet készíteni. Ez az ötlet már egy éve a fejemben volt, 
+        sőt egy kezdetleges verziót sikerült készítenem, majd egy egészen tűrhetö verzió is kikerült a kezemközül. 
+        Ezekkel csak az volt a baj, hogy a felhasználói felület (<a href="https://hu.wikipedia.org/wiki/Felhaszn%C3%A1l%C3%B3i_fel%C3%BClet">UI</a>) a terminálban volt elhelyezve (<a href="https://hu.wikipedia.org/wiki/Parancssoros_felhaszn%C3%A1l%C3%B3i_fel%C3%BClet">CLI</a>). Ez igen ronda, nem átlátható, kellemetlen a használata.
+         Ezért elhatároztam, hogy készítek egy grafikus felhasználói felülettel (<a href="https://hu.wikipedia.org/wiki/Grafikus_felhaszn%C3%A1l%C3%B3i_fel%C3%BClet">GUI</a>) rendelkező programot, melynek képességeit kibővítem. <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2><b>Segítség a programban</b></h2>
+    <h3>1. "Válaszd ki a weboldal háttérszínét":</h3>
+    Itt megadhatod a weboldal háttérszínét. A gombra kattintva megjelenik egy színválasztó, ahol megadhatod a pontos színt amit akarsz. Ez alapértelmezetten fehér. (Itt javaslom a világos, kissé fakó színeket.) Színválasztás után a gomb mellet megjelenik egy szöveg (olyasmi, hogy #f10562) ez teljesen normális. Ez a választott színed <a href="https://hu.wikipedia.org/wiki/HTML-sz%C3%ADnk%C3%B3dok">színkódja</a>. Nem kell ezzel semmit csinálnod, de hozzáértőknek, fejlesztőknek hasznos lehet.
+    A "válaszd ki a weboldal betűszínét" és a "válaszd ki a weboldal fejlécszínét" nem érdemelnek külön említést, hisz szinte teljesen megegyezznek a háttérszín választással. Maximum annyit annak aki nem tudja, hogy melyik mit tud: a betűszín magáért beszél, mert ezzel lehet beállítani a weboldalon szereplő szövegek betűszínét.
+    A betüszínt javaslom sötét (főleg fekete, sötét kék, lila) színek beállítását, a jobb olvashatóságért. A lényeg, hogy a szöveg és a háttér között nagy legyen a kontraszt!
+    <br> A fejlécnél nehéz lehet a tökéletes színt megtalálni. Ez nagyon fontos egy jó weboldalon. A háttérnek és a fejlécnek harmóniában kell lenni. A tökéletes szín kiválasztásáért javaslom az alábbi <a href="https://coolors.co/fb6107-f3de2c-7cb518-5c8001-fbb02d">weboldalt</a>, ahol szóközgomb nyomogatásával kaphatunk összeillő színpalettákat.
+    <br> Amennyiben a színválasztógomb mellet lévő szöveg <i>None</i> szövegre vált, ez azt jelenti, hiba ütközött a színválasztásba. Ez nem egy hatalmas baj, ez föleg akkor jelenik meg ha bezárjuk, félbeszakítjuk a színválasztást. None feliratnál a rendszer fehér színnel helyettesíti az adott színt.
+
+   </p>
+</div>
+</body>
+<footer>Csete Andor</footer>
+</html>
